@@ -1,0 +1,119 @@
+/* Main container for About page */
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    padding: 100px;
+    color: white; 
+  }
+  
+  /* Left section for About header and contact */
+  .left-side {
+    flex: 1;
+    max-width: 40%; 
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-container{
+    margin-top: 55px;
+  }
+  /* Right section for About text */
+  .right-side {
+    flex: 2;
+    max-width: 70%; 
+
+    margin-top: 5px;
+  }
+  
+  /* Styling for the About header */
+  .about-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 120px;
+  }
+    
+  /* Contact header */
+  .contact-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  /* Contact info styles */
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+/* Styling for Contact icons */
+.contact-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-right: 10px;
+  }
+  
+  .contact-icon-place{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-right: 8px;
+  }
+
+  /* You can also add hover effect if needed */
+  .contact-icon:hover {
+    filter: brightness(0) invert(1); 
+  }
+  
+  
+  /* Social media links */
+  .social-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f0f0f0; 
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+  }
+  
+  .social-links a img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+  }
+  
+  /* Social media icons */
+  .github-link img {
+    width: 30px;
+  }
+  
+  .linkedin-link img {
+    width: 30px; 
+  }
+  
+  /* About text styling */
+  .about-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.7); 
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  

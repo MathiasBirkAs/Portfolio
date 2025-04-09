@@ -1,0 +1,40 @@
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.logo {
+    color: #fff;
+    font-size: 28px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px; /* her kan du justere spacing */
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #559dcd;
+}

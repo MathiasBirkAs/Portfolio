@@ -49,7 +49,7 @@ const AboutPage = () => {
         </div>
         </div>
       </div>
-
+      
       <div className="right-side">
         <div className="about-text">
         <h1>Hey, Mathias her – Front-End udvikler</h1>

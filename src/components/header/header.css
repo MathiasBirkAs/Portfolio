@@ -1,102 +1,184 @@
-/* header.css */
+/* --- header.css --- */
 .site-header {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    background-color: #006466;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    color: white;
-    font-family: 'Inter', sans-serif;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-color: #006466;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.intro-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 100px 90px 100px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.intro-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.intro-text h2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+}
+
+.intro-text p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+  margin-top: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 15px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.social-icons a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  padding: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+}
+
+.social-icons a img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
+/* --- Tech icons --- */
+.tech-icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #000;
+  border-radius: 50px;
+  padding: 15px;
+  width: 70%;
+  max-width: 600px;
+  margin: 20px auto;
+  flex-wrap: wrap;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.icon img {
+  width: 30px;
+  height: 30px;
+}
+
+/* ----------------- RESPONSIVE BREAKPOINTS ----------------- */
+
+/* Tablets (768px og ned) */
+@media (max-width: 768px) {
+
+  .site-header {
+    margin-top: 70px;
   }
   
   .intro-section {
-    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 80px 100px 90px 100px;
-    gap: 40px;
-    margin-top: 60px;
+    padding: 60px 40px;
+    text-align: center;
   }
-  
-  .intro-text h2 {
-    font-size: 50px;
-    font-weight: 700;
-    margin: 0 0 20px 0;
-  }
-  
-  .intro-text p {
-    font-size: 20px;
-    font-weight: 500;
-  }
-  
-  .profile-pic {
-    width: 300px; 
-    height: 300px; 
-    border-radius: 50%; 
-    object-fit: cover; 
-    border: 5px solid white; 
-    margin-top: 20px; 
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); 
-  }
-  
-  .social-icons {
-    display: flex;
-    margin-top: 15px;
-    gap: 10px; 
-  }
-  
-  .social-icons a {
-    width: 40px;
-    height: 40px;
-    display: flex; 
-    justify-content: center;
-    align-items: center; 
-    background-color: white;
-    border-radius: 50%;
-    padding: 8px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-  }
-  
-  .social-icons a:hover {
-    background-color: #f0f0f0;
-    transform: scale(1.05);
-  }
-  
-  .social-icons a img {
-    width: 25px;
-    height: 25px;
-    object-fit: contain;
-  }
-  
 
-.tech-icons {
-    display: flex; 
-    justify-content: space-evenly; 
-    align-items: center;
-    background-color: #000; 
-    border-radius: 50px; 
-    padding: 15px; 
-    width: 70%; 
-    max-width: 600px; 
-    margin: 0 auto; 
-    margin-top: 20px; 
-    margin-bottom: 20px; 
+  .intro-text h2 {
+    font-size: 36px;
   }
-  
-  .icon {
-    display: flex;
+
+  .intro-text p {
+    font-size: 18px;
+  }
+
+  .profile-pic {
+    width: 220px;
+    height: 220px;
+  }
+
+  .tech-icons {
+    width: 90%;
+  }
+}
+
+/* Mobiler (480px og ned) */
+@media (max-width: 480px) {
+
+  .site-header {
+    margin-top: 70px;
+  }
+  .intro-section {
+    padding: 40px 20px;
+  }
+
+  .intro-text h2 {
+    font-size: 28px;
+  }
+
+  .intro-text p {
+    font-size: 16px;
+  }
+
+  .profile-pic {
+    width: 180px;
+    height: 180px;
+  }
+
+  .social-icons {
     justify-content: center;
-    align-items: center;
-    padding: 10px; 
-    width: 50px; 
-    height: 50px; 
+    gap: 8px;
   }
-  
-  .icon img {
-    width: 30px; 
-    height: 30px; 
+
+  .social-icons a {
+    width: 35px;
+    height: 35px;
+    padding: 6px;
   }
-  
+
+  .social-icons a img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .tech-icons {
+    padding: 10px;
+  }
+}

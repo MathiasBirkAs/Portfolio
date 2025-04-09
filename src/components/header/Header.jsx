@@ -20,7 +20,7 @@ const Header = () => {
       <div className="intro-section">
         <div className="intro-text">
           <h2>Frontend web <br /> developer !</h2>
-          <p>Hey, jeg er Mathias. En Front-end Web Developer <br />placeret i Danmark.</p>
+          <p>Hey, jeg er Mathias. En Front-end Web Developer <br />placeret i Viborg.</p>
 
           <div className="social-icons">
             <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">

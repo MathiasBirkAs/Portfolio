@@ -52,7 +52,7 @@ const AboutPage = () => {
       
       <div className="right-side">
         <div className="about-text">
-        <h1>Hey, Mathias her – Front-End udvikler</h1>
+        <h1>Hey, Mathias her – Front-End Webudvikler</h1>
           <p>
             Jeg er 26 år gammel, og jeg er i gang med min
             uddannelse som webudvikler, med fokus på front-end udvikling. Jeg er

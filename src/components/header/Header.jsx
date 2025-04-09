@@ -19,7 +19,7 @@ const Header = () => {
     <header className="site-header">
       <div className="intro-section">
         <div className="intro-text">
-          <h2>Frontend web <br /> developer !</h2>
+          <h2>Frontend web <br /> developer!</h2>
           <p>Hey, jeg er Mathias. En Front-end Web Developer <br />placeret i Viborg.</p>
 
           <div className="social-icons">

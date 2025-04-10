@@ -20,7 +20,7 @@ const Header = () => {
       <div className="intro-section">
         <div className="intro-text">
           <h2>Front-End <br /> Webudvikler!</h2>
-          <p>Hey, jeg er Mathias. En Front-end Web Developer <br />placeret i Viborg.</p>
+          <p>Hey, jeg er Mathias. En Front-end Webudvikler <br />placeret i Viborg.</p>
 
           <div className="social-icons">
             <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
@@ -35,8 +35,8 @@ const Header = () => {
       </div>
 
     <div className="tech-icons">
-        <div className="icon html"><img src={htmlIcon} alt="HTML / CSS" /></div>
-        <div className="icon html"><img src={cssIcon} alt="HTML / CSS" /></div>
+        <div className="icon html"><img src={htmlIcon} alt="HTML" /></div>
+        <div className="icon html"><img src={cssIcon} alt="CSS" /></div>
         <div className="icon js"><img src={jsIcon} alt="JavaScript" /></div>
         <div className="icon react"><img src={reactIcon} alt="React" /></div>
         <div className="icon node"><img src={nodeIcon} alt="Node.js" /></div>

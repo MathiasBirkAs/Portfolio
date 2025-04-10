@@ -192,18 +192,7 @@
     height: 45px;
   }
 
-  .social-links a {
-    width: 35px;
-    height: 35px;
-  }
-
-  .social-links a img {
-    width: 18px;
-    height: 18px;
-  }
-
-  .github-link img,
-  .linkedin-link img {
-    width: 25px;
+  .social-links{
+    display: none;
   }
 }

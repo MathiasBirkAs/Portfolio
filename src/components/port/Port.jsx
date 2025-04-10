@@ -8,7 +8,7 @@ import Rejseblog from '../../assets/Rejseblog.png';
 import Greenleaf from '../../assets/Greenleaf.png';
 import Mclarenf1 from '../../assets/Mclarenf1.png';
 import Fremtidbil from '../../assets/Fremtidbil.png';
-import githubIcon from '../../assets/icons/github.png';
+import githubIcon from '../../assets/icons/Github.png';
 
 const Port = () => {
     const projects = [

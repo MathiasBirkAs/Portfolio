@@ -8,7 +8,7 @@ import Header from "../components/header/Header"
 const Home = () =>{
     return(
         <article>
-        <Header headerType="home"/>
+        <Header/>
         </article>
     )
 }

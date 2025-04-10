@@ -47,19 +47,19 @@
   .text-content h3 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    text-align: center; /* Centrer titlen */
+    text-align: center;
   }
   
   .text-content p {
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
     line-height: 1.6;
-    text-align: justify; /* Juster teksten */
+    text-align: justify; 
     padding: 1rem;
     border-radius: 8px;
   }
   
- /* Styling for GitHub button (social icons style) */
+
 .github-link {
   width: 40px;
   height: 40px;

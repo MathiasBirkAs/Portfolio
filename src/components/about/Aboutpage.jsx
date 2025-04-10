@@ -21,7 +21,7 @@ const AboutPage = () => {
         <div className="contact-info">
           <div className="contact-item">
             <img src={Profileicon} alt="Email" className="contact-icon" />
-            <p>MathiasAsBirkeland@outlook.dk</p>
+            <p>email@gmail.com</p>
           </div>
           <div className="contact-item">
             <img src={Locationicon} alt="Location" className="contact-icon-place" />

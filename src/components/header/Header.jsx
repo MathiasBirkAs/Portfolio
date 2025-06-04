@@ -35,12 +35,15 @@ const Header = () => {
       </div>
 
     <div className="tech-icons">
-        <div className="icon html"><img src={htmlIcon} alt="HTML" /></div>
-        <div className="icon html"><img src={cssIcon} alt="CSS" /></div>
-        <div className="icon js"><img src={jsIcon} alt="JavaScript" /></div>
-        <div className="icon react"><img src={reactIcon} alt="React" /></div>
-        <div className="icon node"><img src={nodeIcon} alt="Node.js" /></div>
-        <div className="icon figma"><img src={figmaIcon} alt="Figma" /></div>
+        <h3 className="tech-heading">This is the code I have best competence in.</h3>
+        <div className="icons-row">
+          <div className="icon html"><img src={htmlIcon} alt="HTML" /></div>
+          <div className="icon css"><img src={cssIcon} alt="CSS" /></div>
+          <div className="icon js"><img src={jsIcon} alt="JavaScript" /></div>
+          <div className="icon react"><img src={reactIcon} alt="React" /></div>
+          <div className="icon node"><img src={nodeIcon} alt="Node.js" /></div>
+          <div className="icon figma"><img src={figmaIcon} alt="Figma" /></div>
+        </div>
     </div>
     </header>
   );

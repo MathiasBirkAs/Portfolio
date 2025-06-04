@@ -80,15 +80,31 @@
 /* --- Tech icons --- */
 .tech-icons {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
   background-color: #000;
   border-radius: 50px;
-  padding: 15px;
+  padding: 20px;
   width: 70%;
   max-width: 600px;
   margin: 20px auto;
+  gap: 15px;
+}
+
+.tech-heading {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.icons-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
 }
 
 .icon {
@@ -136,6 +152,15 @@
 
   .tech-icons {
     width: 90%;
+    padding: 15px;
+  }
+
+  .tech-heading {
+    font-size: 18px;
+  }
+
+  .icons-row {
+    gap: 15px;
   }
 }
 
@@ -180,5 +205,13 @@
 
   .tech-icons {
     padding: 10px;
+  }
+
+  .tech-heading {
+    font-size: 16px;
+  }
+
+  .icons-row {
+    gap: 12px;
   }
 }
